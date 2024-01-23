@@ -1,0 +1,80 @@
+@mixin centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios {
+  width: 100vw;
+  height: 800px;
+  @include centrar(); // centra con display flex
+  flex-direction: column;
+  //   margin-top: -40px;
+}
+
+.subtitulo {
+  font-weight: bold;
+  color: rgb(156, 80, 36);
+  font-size: 42px;
+
+  &:hover {
+    text-decoration: underline rgba(131, 131, 131, 0.521);
+  }
+}
+.subtitulo {
+  margin-top: -20px;
+  @media (max-width: 375px) {
+    margin: auto;
+  }
+}
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  @include centrar(); // centra con display flex
+  flex-direction: row;
+  justify-content: space-evenly !important;
+  flex-wrap: wrap;
+
+  // background-color: salmon;
+}
+
+.card {
+  padding: 50px;
+  border-radius: 8px;
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.optica {
+  width: 380px;
+  height: 90%;
+  background-color: rgb(230, 230, 230);
+  border-radius: 8px;
+  padding-top: 10px;
+  @include centrar();
+  align-items: normal;
+  box-shadow: 0 0 10px 2px rgb(172, 171, 171);
+  
+  position: relative;
+
+  img {
+    height: 90%;
+    object-fit: contain;
+  }
+}
+
+
+.iconos{
+    position: absolute;
+    // background-color: salmon;
+    width: 100%;
+    height: 40px;
+    bottom: 10px;
+    display: flex;
+    gap: 15px;
+    left: 20px;
+}
