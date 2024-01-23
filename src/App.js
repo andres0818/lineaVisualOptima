@@ -1,8 +1,11 @@
 import React from 'react'
+import Bannner from './components/Banner/Bannner'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Bannner/>
+    </div>
   )
 }
 
