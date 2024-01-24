@@ -1,0 +1,42 @@
+.producto_contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding-top: 40px;
+  margin: 100px auto 0 auto;
+  background-color: rgb(210, 210, 210);
+  box-shadow: 0 18px 10px 20px gray;
+
+}
+
+.card_container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(500px, 0));
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+    
+    @media (max-width: 997px) {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+    
+    img, iframe {
+        object-fit: contain;
+        width: 100%;
+        height: 500px;
+        max-width: 500px;
+        max-height: 500px;
+        border-radius: 8px;
+
+    
+    }
+
+     iframe{
+        height: calc(500px - 26px);
+        transform: translateY(12px);
+
+     }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Bannner from './components/Banner/Bannner'
 import Servicios from './components/Servicios/Servicios'
+import { Productos } from './components/Productos/Productos'
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <div>
       <Bannner/>
       <Servicios/>
+      <Productos/>
     </div>
   )
 }
