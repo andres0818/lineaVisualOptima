@@ -7,7 +7,16 @@
   padding-top: 40px;
   margin: 100px auto 0 auto;
   background-color: rgb(210, 210, 210);
-  box-shadow: 0 18px 10px 20px gray;
+  box-shadow: -18px 18px 10px 20px gray;
+
+  padding-bottom: 40px;
+
+  @media (max-width: 997px) {
+    width: 105vw;
+    display: flex;
+    justify-content: end !important;
+}
+
 
 }
 
@@ -21,7 +30,10 @@
     
     @media (max-width: 997px) {
         grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        display: flex;
+        flex-direction: column;
     }
+
     
     img, iframe {
         object-fit: contain;
@@ -31,7 +43,9 @@
         max-height: 500px;
         border-radius: 8px;
 
-    
+        @media (max-width: 997px) {
+            width: 100vw;
+        }
     }
 
      iframe{
