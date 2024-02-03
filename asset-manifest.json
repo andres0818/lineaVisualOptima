@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/lineaVisualOptima/static/css/main.a08bac90.css",
-    "main.js": "/lineaVisualOptima/static/js/main.41c2347a.js",
+    "main.js": "/lineaVisualOptima/static/js/main.b537e84b.js",
     "static/media/infantil.mp4": "/lineaVisualOptima/static/media/infantil.df78bd3408e86921f4c8.mp4",
     "static/media/negocio_local.jpeg": "/lineaVisualOptima/static/media/negocio_local.a6358384628bb9d6d901.jpeg",
+    "static/media/monturaDama.jpeg": "/lineaVisualOptima/static/media/monturaDama.a796e624cf8bf2107eb5.jpeg",
     "static/media/logo_azul.png": "/lineaVisualOptima/static/media/logo_azul.43c4978bb68ec4224c29.png",
     "static/media/montura.jpeg": "/lineaVisualOptima/static/media/montura.5d973055b1a102dd0bf7.jpeg",
     "static/media/logo.png": "/lineaVisualOptima/static/media/logo.69d396a7a7e65929ae38.png",
@@ -11,10 +12,10 @@
     "static/media/LineaVisualOptica.svg": "/lineaVisualOptima/static/media/LineaVisualOptica.998f02148a04b57418840089cdca7211.svg",
     "index.html": "/lineaVisualOptima/index.html",
     "main.a08bac90.css.map": "/lineaVisualOptima/static/css/main.a08bac90.css.map",
-    "main.41c2347a.js.map": "/lineaVisualOptima/static/js/main.41c2347a.js.map"
+    "main.b537e84b.js.map": "/lineaVisualOptima/static/js/main.b537e84b.js.map"
   },
   "entrypoints": [
     "static/css/main.a08bac90.css",
-    "static/js/main.41c2347a.js"
+    "static/js/main.b537e84b.js"
   ]
 }
