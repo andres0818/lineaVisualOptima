@@ -1,3 +1,5 @@
+$colorPrimary: rgb(4, 114, 177);
+
 @mixin centrar {
   display: flex;
   justify-content: center;
@@ -19,7 +21,7 @@
 
 .subtitulo {
   font-weight: bold;
-  color: #3978a6;
+  color: $colorPrimary;
   font-size: 42px;
 
   &:hover {
