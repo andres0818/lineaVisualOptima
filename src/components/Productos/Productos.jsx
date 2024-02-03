@@ -1,5 +1,5 @@
 import React from "react";
-import { montura } from "../../img";
+import { montura,monturaDama } from "../../img";
 import './Productos.scss'
 import video from '../video/infantil.mp4'
 
@@ -9,7 +9,7 @@ export const Productos = () => {
       <h1 className="subtitulo">Productos</h1>
       <div className="card_container">
         <img className="producto_card" src={montura} alt="" />
-        <img className="producto_card" src={montura} alt="" />
+        <img className="producto_card" src={monturaDama} alt="" />
 
         <video className="producto_card" muted autoPlay loop>
         <source src={video} type="video/mp4" />

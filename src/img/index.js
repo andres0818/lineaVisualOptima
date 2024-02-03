@@ -9,5 +9,6 @@ import logo_azul_horizontal from './logo_azul_horizontal.png'
 import QrInstagram from './LineaVisualOptica.svg'
 import whatsApp from './whatsapp.png'
 import instagram from './instagram.png'
+import monturaDama from './monturaDama.jpeg'
 
-export {chat, like, tienda, logo, enviar, montura, logo_azul, logo_azul_horizontal, QrInstagram, whatsApp, instagram}
+export {chat, like, tienda, logo, enviar, montura, logo_azul, logo_azul_horizontal, QrInstagram, whatsApp, instagram,monturaDama}
