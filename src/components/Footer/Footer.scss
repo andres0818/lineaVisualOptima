@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  margin-top: 12px;
+}
+
+h1 {
+  color: #3978a6;
+}
+
+strong, strong>a {
+    color: #3978a6;
+}
+
+.img {
+  width: 200px;
+}
+
+.container_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media(max-width:500px){
+        flex-direction: column;
+    }
+}

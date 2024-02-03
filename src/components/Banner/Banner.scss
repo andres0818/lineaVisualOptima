@@ -1,9 +1,13 @@
 .banner {
   width: 100vw;
   height: 25vh;
-  background: url('../../img/logo.png') no-repeat center center rgb(210, 210, 210);
+  background: url("../../img/logoHorizontal.png") no-repeat center center
+    rgb(210, 210, 210);
   background-size: contain;
 
   box-shadow: 0 -18px 10px 20px gray;
 
+  @media (max-width: 997px) {
+    width: 105%;
+  }
 }

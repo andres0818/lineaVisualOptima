@@ -19,7 +19,7 @@
 
 .subtitulo {
   font-weight: bold;
-  color: rgb(156, 80, 36);
+  color: #3978a6;
   font-size: 42px;
 
   &:hover {
@@ -83,3 +83,15 @@
     gap: 15px;
     left: 20px;
 }
+
+.contactenos{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+
+  img{
+    width: 34px;
+  }
+}
+
