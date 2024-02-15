@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lineaVisualOptima/static/css/main.a08bac90.css",
-    "main.js": "/lineaVisualOptima/static/js/main.b537e84b.js",
+    "main.js": "/lineaVisualOptima/static/js/main.1e91f47a.js",
     "static/media/infantil.mp4": "/lineaVisualOptima/static/media/infantil.df78bd3408e86921f4c8.mp4",
     "static/media/negocio_local.jpeg": "/lineaVisualOptima/static/media/negocio_local.a6358384628bb9d6d901.jpeg",
     "static/media/monturaDama.jpeg": "/lineaVisualOptima/static/media/monturaDama.a796e624cf8bf2107eb5.jpeg",
@@ -12,10 +12,10 @@
     "static/media/LineaVisualOptica.svg": "/lineaVisualOptima/static/media/LineaVisualOptica.998f02148a04b57418840089cdca7211.svg",
     "index.html": "/lineaVisualOptima/index.html",
     "main.a08bac90.css.map": "/lineaVisualOptima/static/css/main.a08bac90.css.map",
-    "main.b537e84b.js.map": "/lineaVisualOptima/static/js/main.b537e84b.js.map"
+    "main.1e91f47a.js.map": "/lineaVisualOptima/static/js/main.1e91f47a.js.map"
   },
   "entrypoints": [
     "static/css/main.a08bac90.css",
-    "static/js/main.b537e84b.js"
+    "static/js/main.1e91f47a.js"
   ]
 }
